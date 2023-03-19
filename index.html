@@ -5,11 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snikpic</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="wrapper">
-        <header class="header"></header>
+
+        <header class="header">
+            <div class="header__container">
+                <a href="#!" class="header__logo">
+                    <img src="./img/logo.svg" alt="Logo">
+                </a>
+                <nav class="header__menu menu">
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Product</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Use Case</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Learn</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Comparison</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Pricing</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#!" class="menu__link">Contact Sales</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header__active active">
+                    <a href="#!" class="active__button">Sign up</a>
+                    <a href="#!" class="active__language language-active">
+                        <span class="language-active__text">EN</span>
+                        <span class="language-active__arrow"><img src="./img/Arrow_down.svg" alt="Arrow_down"></span>
+                    </a>
+                </div>
+                <button class="icon-menu" type="button">
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+
         <main class="main"></main>
+
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
