@@ -574,6 +574,13 @@ color: #677487;
 
 
 @media (max-width: $BreakPoint991) {
+    .tabs {
+        background: #FDF9F8;
+        padding-top: 90px;
+        padding-bottom: 110px;
+        margin-bottom: 40px;
+    }
+
     .item-tabs {
          flex-direction: column;
          row-gap: 60px;
@@ -614,4 +621,113 @@ color: #677487;
         row-gap: 3px;
     }
     
+}
+
+
+
+
+
+
+
+// ! CARE
+
+
+
+.care {
+    background: #F9F7FC;
+}
+.care__container {
+    margin-bottom: 40px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.care__content {
+    align-self: center;
+    padding-right: 30px;
+}
+.content-care {
+}
+.content-care__title {
+    margin-bottom: 24px;
+}
+.content-care__title span {
+    color: $MainColor;
+}
+.content-care__text {
+    max-width: 568px;
+    font-size: 18px;
+    
+}
+
+.featers-care {
+    column-gap: 56px;
+    padding-left: 62px;
+    border-left: 1px solid rgb(0, 0, 0, 0.1);
+}
+.featers-care__item {
+}
+.featers-care__icon {
+    margin-bottom: 14px;
+}
+.featers-care__icon img {
+    width: 100%;    
+}
+.featers-care__title {
+    margin-bottom: 16px;
+    color: $DarkColor;
+    font-weight: 600;
+    font-size: 18px;
+}
+.featers-care__text {
+    max-width: 469px;
+}
+
+
+@media (max-width: $BreakPoint991) {
+    .care__container {
+        max-width: 750px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+
+        flex-direction: column;
+        row-gap: 45px;
+    }
+    .featers-care {
+        padding-top: 25px;
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid rgb(0, 0, 0, 0.1);
+        border-left: none;
+        padding-left: 0;
+        gap: 30px;
+    }
+    .featers-care__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .featers-care__title {
+        margin-bottom: 3px;
+    }
+    .featers-care__text {
+        max-width: none;
+    }
+}
+
+
+@media (max-width: $BreakPoint767) {
+    .care__container {
+        max-width: 400px;
+    }
+    .featers-care__item {
+        align-items: start;
+        text-align: start;
+    }
+    .featers-care {
+        flex-direction: column;
+    }
+
 }
