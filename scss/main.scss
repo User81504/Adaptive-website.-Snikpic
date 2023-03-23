@@ -950,12 +950,17 @@ color: #677487;
 
 
 @media (max-width: $BreakPoint991) {
-    
+    .reviews__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 
 
 @media (max-width: $BreakPoint767) {
     .reviews__container {
+        padding-top: 90px;
+        padding-bottom: 90px;
         flex-direction: column;
         max-width: 500px;
         gap: 0;
@@ -965,6 +970,9 @@ color: #677487;
     }
     .info-reviews__logo {
         width: 90px;
+    }
+    .reviews__info {
+        flex: 0 0 auto;
     }
 }
 
@@ -977,4 +985,123 @@ color: #677487;
         text-align: start;
     }
     
+}
+
+
+
+
+
+
+
+// ! FOOTER 
+
+
+.footer {
+    background-color: #3B434F;
+}
+.footer__container {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.socials-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.socials-footer__logo {
+}
+.socials-footer__row {
+    display: flex;
+    gap: 30px;
+}
+.socials-footer__row-img {
+}
+
+.links-footer {
+    display: flex;
+    gap: 116px;
+}
+.links-footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.links-footer__list-item {
+    
+}
+.links-footer__list-item li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.links-footer__list-item a {
+    color: #fff;
+}
+
+.footer__contacts {
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+
+@media (max-width: $BreakPoint991) {
+    .footer__container {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .links-footer {
+        display: flex;
+        gap: 70px;
+    }
+    .links-footer__list {
+        gap: 22px;
+    }
+}
+
+
+@media (max-width: $BreakPoint767) {
+    .main-footer {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .socials-footer {
+        gap: 30px;
+        align-items: center;
+    }
+    .links-footer {
+        justify-content: center;
+        text-align: center;
+        padding-left: 22px;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .main-footer {
+        margin-bottom: 50px;
+    }
+    .socials-footer {
+        align-items: start;
+    }
+    .links-footer {
+        padding-left: 0;
+        flex-direction: column;
+        gap: 24px;
+        align-items: start;
+    }
+    .links-footer__list {
+        gap: 10px;
+    }
+    .links-footer__list-item {
+        text-align: start;
+    }
 }
