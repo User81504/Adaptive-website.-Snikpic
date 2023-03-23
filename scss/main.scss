@@ -509,14 +509,12 @@ color: #677487;
 }
 .item-tabs__title {
     font-size: 46px;
-    max-width: 400px;
     margin-bottom: 24px;
 }
 .item-tabs__title span {
     color: $MainColor;
 }
 .item-tabs__text {
-    max-width: 368px;
     margin-bottom: 32px;
 }
 
@@ -582,8 +580,11 @@ color: #677487;
     }
 
     .item-tabs {
-         flex-direction: column;
-         row-gap: 60px;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    .item-tabs__info {
+        max-width: 700px;
     }
     .header-tabs {
         flex-wrap: wrap;
@@ -690,6 +691,7 @@ color: #677487;
         max-width: 750px;
         padding-top: 110px;
         padding-bottom: 110px;
+        padding-right: 0px;
 
         flex-direction: column;
         row-gap: 45px;
